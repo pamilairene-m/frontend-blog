@@ -1,0 +1,235 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* HomePage */
+.home-page-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-top: 40px;
+}
+
+/* Post List */
+.post-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 350px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.post-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.read-more {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+/* Post Detail */
+.post-detail-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail-container img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.post-detail-container h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.post-detail-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Authentication */
+.auth-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #e53e33;
+}
+.or-separator {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-separator span {
+  font-size: 1.2rem;
+  color: #777;
+  font-weight: bold;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-account-btn:hover {
+  background-color: #45a049;
+}
+.or-separator {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-separator span {
+  font-size: 1.2rem;
+  color: #777;
+  font-weight: bold;
+}
+
+.login-redirect-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-redirect-btn:hover {
+  background-color: #45a049;
+}
+/* Search Bar */
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Calendar */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Add New Story Button */
+.add-story-button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-story-button:hover {
+  background-color: #e53e33;
+}
+/* Add to your App.css or NewStoryForm.css */
+.new-story-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.new-story-form-container input, .new-story-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.new-story-form-container button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-story-form-container button:hover {
+  background: #45a049;
+}
+
+.image-preview {
+  width: 100%;
+  margin-top: 10px;
+  max-height: 200px;
+  object-fit: cover;
+}

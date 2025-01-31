@@ -1,0 +1,126 @@
+/* Contact.css */
+.contact-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color:white;
+  }
+  
+  .contact-header p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-form label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #575757;
+    background-color: #444;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #555;
+  }
+  
+  .contact-form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .contact-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-socials {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+  }
+  
+  .contact-socials a {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .contact-socials a:hover {
+    color: #007bff;
+  }
+  .contactpage {
+    background-image: url('../assets/thought.png');
+    
+  
+   
+  }
+  

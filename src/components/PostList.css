@@ -1,0 +1,17 @@
+.like-button {
+    background-color: #ffcccc;
+    color: #ff0000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .like-button:hover {
+    background-color: #ffb3b3;
+  }
+  

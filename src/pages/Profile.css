@@ -1,0 +1,215 @@
+/* General Profile Page Styling */
+.profile-page {
+  background-image: url('../assets/thought.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Profile Container */
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile Title */
+.profile-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Profile Stories Section */
+.profile-stories {
+  margin-top: 30px;
+}
+
+.profile-stories p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Story Item */
+.story-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.story-item h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.story-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.story-item img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+/* Empty State Styling */
+.profile-container p {
+  font-size: 18px;
+  color: #999;
+  margin-top: 30px;
+}
+
+/* Story Item Button */
+.story-item button {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.story-item button:hover {
+  background-color: #388e3c;
+}
+
+/* Profile Image Styling (if you add a user profile picture) */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+button:disabled {
+  background-color: #b2dfdb;
+  cursor: not-allowed;
+}
+
+/* Modal Styling for Editing Stories */
+.edit-story-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.edit-story-modal input,
+.edit-story-modal textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.edit-story-modal textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.edit-story-modal input:focus,
+.edit-story-modal textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Action Buttons inside Modal */
+.edit-story-modal .action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #388e3c;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}

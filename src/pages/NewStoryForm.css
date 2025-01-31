@@ -1,0 +1,112 @@
+/* Background styling for the NewStoryForm page */
+.page {
+  background-image: url('../assets/thought.png'); /* Replace with your image URL */
+  background-size: cover; 
+}
+
+/* Styling for the New Story Form */
+.new-story-form-container {
+  margin:0px;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.new-story-form-container:hover {
+  transform: scale(1.02);
+}
+
+.new-story-form-container h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Styling for the form */
+.new-story-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-story-form-container input[type="text"],
+.new-story-form-container textarea,
+.new-story-form-container input[type="date"],
+.new-story-form-container input[type="file"] {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.7); /* Keep inputs with semi-transparent background */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.new-story-form-container input[type="text"]:focus,
+.new-story-form-container textarea:focus,
+.new-story-form-container input[type="date"]:focus,
+.new-story-form-container input[type="file"]:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Focus effect with blue glow */
+}
+
+/* File input styling */
+.new-story-form-container input[type="file"] {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+}
+
+/* Button Styling */
+.new-story-form-container button {
+  padding: 1rem;
+  background: linear-gradient(135deg, #0073e6, #1e90ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.new-story-form-container button:hover {
+  background: linear-gradient(135deg, #005bb5, #0073e6);
+  transform: translateY(-2px); /* Hover effect */
+}
+
+/* Image preview */
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Disabled Button Styling */
+.new-story-form-container button:disabled {
+  background: #b3c7e6;
+  cursor: not-allowed;
+}
+
+/* For any .btn class usage in the form */
+.btn {
+  color: black;
+}
+
+/* Input Field with Placeholder styling */
+.new-story-form-container input::placeholder,
+.new-story-form-container textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5); /* Subtle placeholder color */
+  font-style: italic;
+}
