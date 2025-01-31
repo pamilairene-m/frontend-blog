@@ -54,7 +54,6 @@ const HomePage = () => {
         setLoading(false);
       }
     };
-
     fetchAllContent();
   }, []);
 

@@ -11,7 +11,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/stories`, {
+        const response = await fetch(`https://backend-blog-2-0fo9.onrender.com/api/stories`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
@@ -47,7 +47,7 @@ const Profile = () => {
                 <p>{story.content}</p>
                 {story.image && (
                   <img
-                    src={`http://localhost:5000/${story.image}`} // Adjust the image path based on where the images are stored
+                    src={`https://backend-blog-2-0fo9.onrender.com/${story.image}`} // Adjust the image path based on where the images are stored
                     alt={story.title}
                     className="story-image"
                   />
