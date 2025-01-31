@@ -27,7 +27,7 @@ const NewStoryForm = () => {
     }
 
     try {
-      const response = await fetch("https://backend-blog-2-0fo9.onrender.com/api/stories", {
+      const response = await fetch("http://localhost:5000/api/stories", {
         method: "POST",
         body: formData,
         headers: {

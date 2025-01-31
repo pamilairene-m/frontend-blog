@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://backend-blog-2-0fo9.onrender.com/api/auth/signup", formData);
+      const res = await axios.post("http://localhost:5000/api/auth/signup", formData);
       alert("Signup successful! Please log in.");
       navigate("/login");
     } catch (err) {
